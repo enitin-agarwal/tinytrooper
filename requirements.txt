@@ -1,0 +1,12 @@
+tensorflow~=2.13.0
+keras==2.6.0
+opencv-python~=4.8.0.76
+matplotlib~=3.7.3
+deepface~=0.0.79
+nltk~=3.8.1
+SpeechRecognition==3.8.1
+Pillow==8.2.0
+
+keyboard~=0.13.5
+spacy~=3.6.1
+numpy~=1.24.3
