@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tinytrooper-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tinytrooper
+  template:
+    metadata:
+      labels:
+        app: tinytrooper
+    spec:
+      containers:
+      - name: app-container
+        image: tinytrooper  # Replace with the Docker image URL of your application
+        ports:
+        - containerPort: 80
